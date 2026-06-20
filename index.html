@@ -1,0 +1,185 @@
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════ NAV ═══════════════════════════════════ -->
+  <nav class="nav" role="navigation" aria-label="Navegação principal">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">&lt;<span>dev</span>/&gt;</a>
+
+      <ul class="nav-links" id="nav-menu" role="list">
+        <li><a href="#about"    class="nav-link" data-i18n="nav.about">Sobre</a></li>
+        <li><a href="#stack"    class="nav-link" data-i18n="nav.stack">Stack</a></li>
+        <li><a href="#projects" class="nav-link" data-i18n="nav.projects">Projetos</a></li>
+        <li><a href="#contact"  class="nav-link" data-i18n="nav.contact">Contato</a></li>
+      </ul>
+
+      <div class="nav-controls">
+        <button class="icon-btn" id="lang-toggle" aria-label="Trocar idioma">EN</button>
+        <button class="icon-btn" id="theme-toggle" aria-label="Trocar tema">
+          <!-- filled by theme.js -->
+        </button>
+      </div>
+
+      <button class="nav-hamburger" id="nav-hamburger" aria-label="Menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ═══════════════ HERO ══════════════════════════════════ -->
+  <section id="hero">
+    <div class="container">
+      <div class="hero-grid">
+
+        <div class="hero-inner">
+
+          <div class="hero-status">
+            <span class="hero-status-dot"></span>
+            <span data-i18n="hero.status">Disponível para estágio</span>
+          </div>
+
+          <p class="hero-greeting" data-i18n="hero.greeting">Olá, eu sou</p>
+          <h1 class="hero-name" data-i18n="hero.name">Carlos Henrique</h1>
+          <p class="hero-role" id="hero-role" data-i18n="hero.role">Desenvolvedor Back-end</p>
+
+          <p class="hero-tagline" data-i18n="hero.tagline">
+            Construo APIs confiáveis, banco de dados bem modelados e sistemas que escalam — com código limpo e documentação de verdade.
+          </p>
+
+          <div class="hero-cta">
+            <a href="#projects" class="btn btn-primary" data-i18n="hero.cta_projects">Ver Projetos</a>
+            <a href="assets/cv/cv-CarlosHenrique-pt.pdf" download="Carlos_Henrique_Curriculo.pdf" class="btn btn-outline" data-i18n="hero.cta_cv">Baixar CV</a>
+          </div>
+
+          <div class="hero-socials">
+            <a href="https://github.com/rickszsantos" target="_blank" rel="noopener" class="social-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/carlos-henrique-santos-b0b138399" target="_blank" rel="noopener" class="social-link">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+              LinkedIn
+            </a>
+          </div>
+
+        </div>
+
+        <div class="hero-photo">
+          <img src="assets/img/carlos-foto.png" alt="Carlos Henrique" />
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ ABOUT ═════════════════════════════════ -->
+  <section id="about">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-label">// sobre</p>
+        <h2 class="section-title" data-i18n="about.title">Sobre mim</h2>
+        <p class="section-subtitle" style="max-width: 620px; margin-bottom: 20px;" data-i18n="about.text">
+          Sou estudante de Ciência da Computação no [Sua Universidade], com foco em desenvolvimento back-end.
+        </p>
+        <div style="display:inline-flex; align-items:center; gap:8px; font-family:var(--font-mono); font-size:0.85rem; color:var(--accent); background:var(--accent-dim); border:1px solid var(--accent-border); padding:8px 16px; border-radius:var(--radius);">
+          <span>★</span>
+          <span data-i18n="about.highlight">1 conquista relevante</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ STACK ═════════════════════════════════ -->
+  <section id="stack">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-label">// stack</p>
+        <h2 class="section-title" data-i18n="stack.title">Stack Técnica</h2>
+      </div>
+      <!-- rendered by i18n.js -->
+      <div id="stack-grid" class="reveal"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ PROJECTS ══════════════════════════════ -->
+  <section id="projects">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-label">// projetos</p>
+        <h2 class="section-title" data-i18n="projects.title">Projetos</h2>
+        <p class="section-subtitle" data-i18n="projects.subtitle">
+          Projetos selecionados com foco em back-end.
+        </p>
+      </div>
+      <!-- rendered by i18n.js -->
+      <div id="projects-grid"></div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ CONTACT ═══════════════════════════════ -->
+  <section id="contact">
+    <div class="container">
+      <div class="reveal">
+        <p class="section-label">// contato</p>
+        <h2 class="section-title" data-i18n="contact.title">Contato</h2>
+        <p class="section-subtitle" data-i18n="contact.subtitle">Aberto para oportunidades de estágio.</p>
+      </div>
+
+      <div class="contact-layout reveal">
+        <div class="contact-info">
+          <a href="mailto:carloshenriquesantospelegrini@gmail.com" class="contact-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <div>
+              <span class="contact-link-label">Email</span><br/>
+              carloshenriquesantospelegrini@gmail.com
+            </div>
+          </a>
+          <a href="https://www.linkedin.com/in/carlos-henrique-santos-b0b138399" target="_blank" rel="noopener" class="contact-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            <div>
+              <span class="contact-link-label">LinkedIn</span><br/>
+              linkedin.com/in/carlos-henrique-santos-pelegrini
+            </div>
+          </a>
+          <a href="https://github.com/rickszsantos" target="_blank" rel="noopener" class="contact-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+            <div>
+              <span class="contact-link-label">GitHub</span><br/>
+              github.com/rickszsantos
+            </div>
+          </a>
+        </div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="form-name" data-i18n="contact.form.name">Nome</label>
+            <input type="text" id="form-name" name="name" data-i18n-placeholder="contact.form.name" placeholder="Nome" required />
+          </div>
+          <div class="form-group">
+            <label for="form-email" data-i18n="contact.form.email">Email</label>
+            <input type="email" id="form-email" name="email" data-i18n-placeholder="contact.form.email" placeholder="Email" required />
+          </div>
+          <div class="form-group">
+            <label for="form-message" data-i18n="contact.form.message">Mensagem</label>
+            <textarea id="form-message" name="message" data-i18n-placeholder="contact.form.message" placeholder="Mensagem" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" data-i18n="contact.form.send">Enviar mensagem</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════ FOOTER ════════════════════════════════ -->
+  <footer>
+    <p data-i18n="footer.text">Feito com HTML, CSS e JS puro · Hospedado no <span>GitHub Pages</span></p>
+  </footer>
+
+  <!-- Scripts (order matters) -->
+  <script src="js/theme.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>

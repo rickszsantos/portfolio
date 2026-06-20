@@ -1,0 +1,140 @@
+{
+  "nav": {
+    "about": "About",
+    "stack": "Stack",
+    "projects": "Projects",
+    "contact": "Contact",
+    "cv": "Download CV"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Carlos Henrique",
+    "role": "Back-end Developer",
+    "status": "Open to internship opportunities",
+    "tagline": "I build reliable APIs, well-modeled databases and systems that scale — with clean code and real documentation.",
+    "cta_projects": "View Projects",
+    "cta_cv": "Download CV",
+    "cta_contact": "Get in touch"
+  },
+  "about": {
+    "title": "About me",
+    "text": "I'm a Systems Analysis and Development student at Fatec Cruzeiro – Prof. Waldomiro May, focused on back-end development. I'm interested in system architecture, API best practices, and database performance. I'm currently looking for my first internship opportunity to apply what I'm learning in practice.",
+    "highlight": "1 relevant achievement — e.g.: won a hackathon, published project, teaching assistant"
+  },
+  "stack": {
+    "title": "Tech Stack",
+    "categories": {
+      "languages": "Languages",
+      "frameworks": "Frameworks",
+      "databases": "Databases",
+      "tools": "Tools"
+    },
+    "items": {
+      "languages": [
+        "Java",
+        "Python",
+        "JavaScript"
+      ],
+      "frameworks": [
+        "Spring Boot",
+        "Node.js",
+        "Express"
+      ],
+      "databases": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB"
+      ],
+      "tools": [
+        "Git",
+        "Docker",
+        "Linux",
+        "Postman"
+      ]
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Selected projects focused on back-end — architecture, technical decisions and documented code.",
+    "items": [
+      {
+        "id": "p1",
+        "name": "AirGuard",
+        "description": "Air quality monitoring system using IoT, ESP32 and environmental sensors (DHT22, MQ-7, MQ-135) for real-time data collection and visualization. An academic extension project built in partnership with the Cruzeiro-SP Municipal Environment Department, featuring a web dashboard with measurement history, an alert system and monitoring station management.",
+        "tech": [
+          "Node.js",
+          "Express.js",
+          "WebSocket",
+          "SQLite",
+          "ESP32"
+        ],
+        "highlights": [
+          "Real-time data collection via ESP32 and environmental sensors",
+          "Web dashboard with WebSocket and measurement history",
+          "Institutional partnership with the Municipal Environment Department"
+        ],
+        "github": "https://github.com/rickszsantos/projeto_airguard",
+        "demo": null,
+        "status": "Academic extension project"
+      },
+      {
+        "id": "p2",
+        "name": "Cyclic Timer System",
+        "description": "A timing mechanism made of two interdependent timers: a main timer with continuous progressive counting, and an auxiliary timer triggered every 20 seconds by the main one, running for 5 seconds before shutting down automatically. Built as a technical exercise for a Delphi developer position.",
+        "tech": [
+          "Delphi",
+          "Pascal"
+        ],
+        "highlights": [
+          "Cyclic timer control",
+          "Time-interval-based execution",
+          "Synchronization logic between counters"
+        ],
+        "github": "https://github.com/rickszsantos/temporizadores-ciclicos-delphi",
+        "demo": null,
+        "status": "Technical exercise"
+      },
+      {
+        "id": "p3",
+        "name": "StudyFlow — Acelera Project",
+        "description": "Prototype built for the \"Acelera\" interdisciplinary project, applying the Brazilian Curricularização da Extensão model to create software with a social impact goal. StudyFlow helps high school seniors study for college entrance exams by offering practice questions with explanations for each answer choice.",
+        "tech": [
+          "C#",
+          ".NET",
+          "Windows Forms"
+        ],
+        "highlights": [
+          "Question bank with per-option explanations",
+          "Prototype built by a 4-person team",
+          "Guided by Data Structures and Programming Languages professors"
+        ],
+        "github": "https://github.com/Muriloferbhs/ProjetoAcelera-StudyFlow",
+        "demo": null,
+        "status": "Academic project"
+      }
+    ],
+    "labels": {
+      "tech": "Stack",
+      "highlights": "Technical highlights",
+      "github": "View code",
+      "demo": "Live demo",
+      "status": "Status"
+    }
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Open to internship opportunities. Send me a message!",
+    "email": "carloshenriquesantospelegrini@gmail.com",
+    "linkedin": "https://linkedin.com/in/youruser",
+    "github": "https://github.com/youruser",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "send": "Send message"
+    }
+  },
+  "footer": {
+    "text": "Built with pure HTML, CSS & JS · Hosted on GitHub Pages"
+  }
+}

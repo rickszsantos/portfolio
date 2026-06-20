@@ -1,0 +1,140 @@
+{
+  "nav": {
+    "about": "Sobre",
+    "stack": "Stack",
+    "projects": "Projetos",
+    "contact": "Contato",
+    "cv": "Baixar CV"
+  },
+  "hero": {
+    "greeting": "Olá, eu sou",
+    "name": "Carlos Henrique",
+    "role": "Desenvolvedor Back-end",
+    "status": "Disponível para estágio",
+    "tagline": "Construo APIs confiáveis, banco de dados bem modelados e sistemas que escalam — com código limpo e documentação de verdade.",
+    "cta_projects": "Ver Projetos",
+    "cta_cv": "Baixar CV",
+    "cta_contact": "Entrar em contato"
+  },
+  "about": {
+    "title": "Sobre mim",
+    "text": "Sou estudante de análise e desenvolvimento de sistemas na Fatec Cruzeiro – Prof. Waldomiro May, com foco em desenvolvimento back-end. Me interesso por arquitetura de sistemas, boas práticas de API e desempenho de banco de dados. Atualmente busco minha primeira oportunidade como estagiário para aplicar o que aprendo na prática.",
+    "highlight": "1 conquista relevante — ex: venci hackathon, projeto publicado, monitoria de disciplina"
+  },
+  "stack": {
+    "title": "Stack Técnica",
+    "categories": {
+      "languages": "Linguagens",
+      "frameworks": "Frameworks",
+      "databases": "Banco de Dados",
+      "tools": "Ferramentas"
+    },
+    "items": {
+      "languages": [
+        "Java",
+        "PHP",
+        "JavaScript"
+      ],
+      "frameworks": [
+        "Spring Boot",
+        "Laravel",
+        "Express"
+      ],
+      "databases": [
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB"
+      ],
+      "tools": [
+        "Git",
+        "Docker",
+        "Linux",
+        "Postman"
+      ]
+    }
+  },
+  "projects": {
+    "title": "Projetos",
+    "subtitle": "Projetos selecionados com foco em back-end — arquitetura, decisões técnicas e código documentado.",
+    "items": [
+      {
+        "id": "p1",
+        "name": "AirGuard",
+        "description": "Sistema de monitoramento da qualidade do ar utilizando IoT, ESP32 e sensores ambientais (DHT22, MQ-7, MQ-135) para coleta e visualização de dados em tempo real. Projeto acadêmico de extensão desenvolvido em parceria com a Secretaria Municipal do Meio Ambiente de Cruzeiro-SP, oferecendo dashboard web com histórico de medições, sistema de alertas e gestão de estações de monitoramento.",
+        "tech": [
+          "Node.js",
+          "Express.js",
+          "WebSocket",
+          "SQLite",
+          "ESP32"
+        ],
+        "highlights": [
+          "Coleta de dados em tempo real via ESP32 e sensores ambientais",
+          "Dashboard web com WebSocket e histórico de medições",
+          "Parceria institucional com a Secretaria Municipal do Meio Ambiente"
+        ],
+        "github": "https://github.com/rickszsantos/projeto_airguard",
+        "demo": null,
+        "status": "Projeto acadêmico de extensão"
+      },
+      {
+        "id": "p2",
+        "name": "Sistema de Temporizadores Cíclicos",
+        "description": "Mecanismo de temporização composto por dois cronômetros interdependentes: um principal, com contagem progressiva contínua, e um auxiliar, disparado a cada 20 segundos do principal e encerrado automaticamente após 5 segundos. Desenvolvido como exercício técnico para vaga de desenvolvedor Delphi.",
+        "tech": [
+          "Delphi",
+          "Pascal"
+        ],
+        "highlights": [
+          "Controle de temporizadores cíclicos",
+          "Execução baseada em intervalos de tempo",
+          "Lógica de sincronização entre contadores"
+        ],
+        "github": "https://github.com/rickszsantos/temporizadores-ciclicos-delphi",
+        "demo": null,
+        "status": "Exercício técnico"
+      },
+      {
+        "id": "p3",
+        "name": "StudyFlow — Projeto Acelera",
+        "description": "Protótipo desenvolvido no projeto interdisciplinar \"Acelera\", aplicando o modelo da Curricularização da Extensão para criar um software de auxílio social. O StudyFlow ajuda estudantes do 3º ano do ensino médio a estudar para vestibulares, oferecendo questões com explicações nas alternativas.",
+        "tech": [
+          "C#",
+          ".NET",
+          "Windows Forms"
+        ],
+        "highlights": [
+          "Banco de questões com explicações por alternativa",
+          "Protótipo desenvolvido em equipe de 4 pessoas",
+          "Projeto orientado por professores de Estrutura de Dados e Linguagem de Programação"
+        ],
+        "github": "https://github.com/Muriloferbhs/ProjetoAcelera-StudyFlow",
+        "demo": null,
+        "status": "Projeto acadêmico"
+      }
+    ],
+    "labels": {
+      "tech": "Stack",
+      "highlights": "Destaques técnicos",
+      "github": "Ver código",
+      "demo": "Demo ao vivo",
+      "status": "Status"
+    }
+  },
+  "contact": {
+    "title": "Contato",
+    "subtitle": "Aberto para oportunidades de estágio. Me manda uma mensagem!",
+    "email": "carloshenriquesantospelegrini@gmail.com",
+    "linkedin": "https://linkedin.com/in/carlos-henrique-santos-pelegrini",
+    "github": "https://github.com/rickszsantos",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "message": "Mensagem",
+      "send": "Enviar mensagem"
+    }
+  },
+  "footer": {
+    "text": "Feito com HTML, CSS e JS puro · Hospedado no GitHub Pages"
+  }
+}
